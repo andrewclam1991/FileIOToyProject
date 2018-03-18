@@ -161,6 +161,11 @@ public class MainActivity extends AppCompatActivity {
 
             // TODO 8) When image clicked, launch an implicit intent and view the content using system handlers.
             setupImageClickEvent(localUri1);
+
+            // TODO 9）Delete cache file
+            if (mCacheUri != null) {
+                getContentResolver().delete(mCacheUri, null, null);
+            }
         });
     }
 
