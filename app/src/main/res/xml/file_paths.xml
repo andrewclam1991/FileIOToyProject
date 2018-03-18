@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <files-path name="ma_docs" path="documents/"/>
+    <files-path name="ma_pics" path="pictures/" />
+    <files-path name="ma_others" path="others/" />
+    <cache-path name="ma_cache" path="." />
+</paths>
